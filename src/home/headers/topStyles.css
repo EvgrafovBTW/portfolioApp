@@ -1,5 +1,4 @@
 .headerBarBackground{
-    background-color: blanchedalmond;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -8,15 +7,41 @@
     padding-right: 10vh;
     height: 4vh;
 }
-
 .items {
     display: flex;
     flex-direction: row;
 }
 .item {
+    color: #FFFFF0;
     margin-left: 1vh;
 }
 .iconText{
     font-weight: bolder;
-    color: red;
+    color: #992C2C;
+}
+
+.topBarBackground{
+    background-color: #992C2C;
+    display: flex;
+    flex-direction: row;
+    padding-left: 16vh;
+    height: 10vh;
+    align-items: center;
+}
+.hello{
+    border-right: 4px solid #FFFFF0;
+    padding-right: 10px;
+}
+.helloText{
+    color: #FFFFF0;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+.nickname{
+    margin-left: 1vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFF0;
+    font-weight: bolder;
+    font-size: 2vh;
 }
