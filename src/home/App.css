@@ -1,0 +1,5 @@
+.appBackground {
+    width: 100vmax - 1px;
+    height: 100vmax;
+    background-color: #171718;
+}

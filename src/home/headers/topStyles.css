@@ -1,0 +1,22 @@
+.headerBarBackground{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16vh;
+    padding-right: 10vh;
+    height: 4vh;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    margin-left: 1vh;
+}
+.iconText{
+    font-weight: bolder;
+    color: red;
+}
